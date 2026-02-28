@@ -1,0 +1,144 @@
+@font-face {
+    font-family: "Pill Gothic 300mg Thin";
+    src: url("https://db.onlinewebfonts.com/t/59b4bf42fa751b94f494f86abd3e5506.eot");
+    src: url("https://db.onlinewebfonts.com/t/59b4bf42fa751b94f494f86abd3e5506.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/59b4bf42fa751b94f494f86abd3e5506.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/59b4bf42fa751b94f494f86abd3e5506.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/59b4bf42fa751b94f494f86abd3e5506.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/59b4bf42fa751b94f494f86abd3e5506.svg#Pill Gothic 300mg Thin")format("svg");
+}
+@font-face {
+    font-family: "Eurydome W01 Black";
+    src: url("https://db.onlinewebfonts.com/t/8e3acc5598d21f709f7cf43ce0e42f33.eot");
+    src: url("https://db.onlinewebfonts.com/t/8e3acc5598d21f709f7cf43ce0e42f33.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8e3acc5598d21f709f7cf43ce0e42f33.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8e3acc5598d21f709f7cf43ce0e42f33.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/8e3acc5598d21f709f7cf43ce0e42f33.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8e3acc5598d21f709f7cf43ce0e42f33.svg#Eurydome W01 Black")format("svg");
+}
+html,body
+{
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(57, 57, 57);
+}
+
+.calculator-container
+{
+    display:flex;
+    flex-direction: column;
+    border-radius:20px;
+    height:95%;
+    width:330px;
+    background-color: rgba(43, 43, 43);
+    border:1px solid black;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.445), 1px 1px 5px 1px rgba(255, 255, 255, 0.459) inset ;
+}
+
+*
+{
+    font-family: "Pill Gothic 300mg Thin";
+}
+.panel
+{
+    display:flex;
+    justify-content: space-between;
+    margin:10px;
+    margin-top:30px;
+    margin-bottom:30px;
+    color:rgba(195, 233, 218);
+    font-weight: bolder;
+    
+}
+.display-screen
+{
+    height:150px;
+    margin:10px;
+    border-radius:10px;
+    background-color:rgba(102, 102, 102);
+    color:rgba(195, 233, 218);
+    box-shadow: 3px 3px 2px  rgb(11, 23, 36);
+}
+#calculator-literal
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-size:18px;
+
+}
+.buttons
+{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    margin :10px;
+    margin-top:40px;
+    
+    
+    
+}
+.block-one
+{
+    display:flex;
+    flex-wrap: wrap;
+    gap:8px;
+    justify-content:space-around;
+    
+}
+.button
+{
+    border-radius: 100%;
+    height: 60px;
+    width:60px;
+    font-size: 22px;
+    font-family: "Pill Gothic 300mg Thin";
+    border:none;
+    background-color:rgba(102, 102, 102);
+    color:rgba(195, 233, 218);
+    box-shadow: 3px 3px 2px  rgb(11, 23, 36);
+    
+}
+.block-two
+{
+    display:flex;
+    margin:8px;
+    justify-content: space-between;
+
+
+}
+.block-three
+{
+    display:flex;
+    flex-wrap: wrap;
+    width:215px;
+    gap:10px;
+    
+    justify-content: space-between;
+}
+.block-four
+{
+    display:flex;
+    
+}
+#plus
+{
+    border-radius:40px;
+    height:130px;
+}
+.display-screen
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 70px;
+}
+.numeral
+{
+    margin-right:10px; 
+    font-family: "Pill Gothic 300mg Thin";
+
+}
